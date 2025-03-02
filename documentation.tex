@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{carlin}
+
+\everymath{\displaystyle}
+\usepackage{amsmath}
+
+\title{carlin package documentation}
+\author{lcbarrosdemoura}
+\date{February 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Statistics
+\begin{flalign*}
+\Prob{X}
+\tab[1]\Prob*{X}
+\\
+\E{X}[Y]
+\tab[1]\E*{X}[Y]
+\\
+\Var{X}[Y]
+\tab[1]\Var*{X}[Y]
+\\
+\Cov{X}[Y]
+\tab[1]\Cov*{X}[Y]
+\\
+\Corr*{X}[Y]
+\tab[1]\Corr{X}[Y]
+\\
+\Bias{X}[Y]
+\tab[1]\Bias*{X}[Y]
+\tab[1]\Vies{X}[Y]
+\tab[1]\Vies*{X}[Y]
+\\
+\MSE{X}[Y]
+\tab[1]\MSE*{X}[Y]
+\tab[1]\EQM{X}[Y]
+\tab[1]\EQM*{X}[Y]
+\end{flalign*}
+
+Derivatives
+\begin{flalign*}
+\del{x}{g(x)}
+\tab[1]
+\der[2]{y}{h(y)}  
+\end{flalign*}
+
+Coordinates
+\begin{flalign*}
+\ball
+\tab M_{\coor{2}{3}}
+\tab M_{\coor{}{3}}
+\tab M_{\coor{2}{}}
+\\
+\tab M_{\coor*{2}{3}}
+\tab M_{\coor*{}{3}}
+\tab M_{\coor*{2}{}}
+\end{flalign*}
+
+Floor, ceil, indicator, independence, proof symbol \& cancel symbol
+\begin{flalign*}
+\floor{x}
+\tab
+\ceil{x}
+\tab
+\indica[A]{x}
+\tab
+A \indep B
+\tab
+\toprove 1 + 1 = 2
+\tab
+\cancel{A}
+\tab
+\cancel[red]{A}
+\end{flalign*}
+
+\end{document}
