@@ -1,8 +1,8 @@
 # carlin
 
-`carlin` is meant to introduce some nice macros to the LaTeX environment. It's worth highlighting the probabilistic macros, that automate the process of writing (conditional) probabilities, expectations, variances, etc. They might seem like overkill, but we strongly belive in a more syntactic LaTeX language (whatever that means).
+`carlin` is meant to introduce some nice macros to the LaTeX environment. It's worth highlighting the probabilistic macros, that automate the process of writing (conditional) probabilities, expectations, variances, etc. They might seem like overkill, but we strongly believe in a more syntactic LaTeX language (whatever that means).
 
-Besides that, the probability functions automate the process of writing `\left` & `\rigth` when there are large inputs - and even `\middle` when we have conditional statements. By the way, the condition of these statements is an optional argument that comes after the mandatory one, which favour readability.
+Besides that, the probability functions automate the process of writing `\left` & `\rigth` when there are large inputs - and even `\middle` when we have conditional statements. By the way, the condition of these statements is an optional argument that comes after the mandatory one, which favors readability.
 
 A draft of documentation is available. The name of the package is a tribute to [Carl Friedrich Gauss](https://pt.wikipedia.org/wiki/Carl_Friedrich_Gauss), the prince of statisticians.
 
